@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: #1B1F21;
+
+}
+
+
+/*****Sección de contactos*****/
+.contact{
+    flex-direction: column;
+    border-right: solid 2px #444749 ;
+    width: 20em;
+    min-height: 100vh;
+}
+
+.person{
+    border-bottom: solid 1px  #bec1bb;
+    display: flex;
+    height: 50px; 
+    justify-content: space-between;
+    padding: 10px 20px;
+       
+     }
+
+ .person img{
+    border-radius: 100%;
+    justify-content: start;
+    } 
+
+.person i{
+    display: flex;
+    align-items: center;
+    }    
+
+.status{
+    color:    #1B1F21;
+    align-items: center;
+    
+}
+.button{
+    display: flex;
+    border-bottom: solid 1px  #bec1bb;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+}
+
+button{
+    background-color: #a49ad2;
+    border: none;
+    color: white;
+    height: 40px;
+    padding: 10px 50px;
+    }
+
+.contact-list{
+    width: 20em;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 2px;
+   
+       
+}
+
+.contact-item{
+   display: flex;
+   height: 30%;
+   justify-content: space-around;   
+   padding: 10px;
+   border-bottom: solid 1px #bec1bb;
+}
+
+
+.contact-item img{
+    display: flex;
+    border-radius: 100%;
+    width: 20%;
+    justify-content: start;
+}
+
+
+
+
+
+.flex-container{
+    display: flex;
+      
+}
+
+/***Sección Principal***/
+.principal {
+    display: flex;
+    width: 100%;
+    background-color:  #e8ebe4 ;
+    align-items: center;
+    justify-content: center;
+}
+ .content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    inline-size: 500px;
+    writing-mode: horizontal-tb; 
+}
+
+.content img{
+    height: 300px;
+ }
+
+
+ /*Tipografias*/
+
+
+
+.person-name{
+   font-size: small;
+}
+.person-status{
+    font-size: x-small;
+}
+
+.contact-name{
+    font-size: medium;
+}
+
+.message{
+    font-size: small;
+}
+
+
